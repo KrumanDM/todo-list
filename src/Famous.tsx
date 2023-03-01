@@ -9,20 +9,23 @@ export type FamousTypeProps = {
 }
 
 export const Famous = (props: FamousType) => {
-    return (
     
+    return (
+        <div className="App">
             <div>
                 {
                     props.cars.map((el) => {
                         return (
-                            <h1>{el.model}</h1>
+                            <li key={el.model}>{el.model}
+                            <span>{el.manufacturer}</span>
+                            </li>
                         )
                     })
                 }
                 <h3>What to learn</h3>
                 <div>
                     <input/>
-                    <button>+</button>
+                    <button onClick={ () =>{console.log("hueta")}}>+</button>
                 </div>
                 <ul>
                     <li><input type="checkbox" checked={true}/> <span>HTML&CSS</span></li>
@@ -35,7 +38,7 @@ export const Famous = (props: FamousType) => {
                     <button>Completed</button>
                 </div>
             </div>
-        
+            </div>
 )}
 
 
