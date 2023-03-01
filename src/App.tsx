@@ -36,7 +36,7 @@ function App() {
     currentMoney = money.filter(filteredMoney => filteredMoney.banknots === 'Dollars');
     }
 
-    const onClickFilterHandler = (nameButton:<FilterType>) => {
+    const onClickFilterHandler = (nameButton: FilterType) => {
       setFilter(nameButton)
     }
 
