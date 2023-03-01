@@ -3,17 +3,17 @@ import { useState } from 'react';
 import './App.css';
 import { Famous } from './Famous';
 
-let [cars, useCars] = useState([
-    {manufacturer:'BMW', model:'m5cs'},
-    {manufacturer:'Mercedes', model:'e63s'},
-    {manufacturer:'Audi', model:'rs6'},
-  ]);
-
 
 function App() {
+    let [cars, useCars] = useState([
+        {manufacturer:'BMW', model:'m5cs'},
+        {manufacturer:'Mercedes', model:'e63s'},
+        {manufacturer:'Audi', model:'rs6'},
+      ]);
+      
     return (
         <div className="App">
-        <Famous r/>
+        <Famous cars={cars} />
         </div>
     );
 }
