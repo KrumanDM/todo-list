@@ -15,11 +15,10 @@ type PropsType = {
 
 export function Todolist(props: PropsType) {
     let[title, setTitle] = useState('')
-    
 
 
-    return <div>
-             
+
+    return <div>             
 
         <h3>{props.title}</h3>
         <div>
