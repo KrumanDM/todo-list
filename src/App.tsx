@@ -21,7 +21,6 @@ const addTask = (title:string) =>{
 
 
 
-
 //  const removeTask = (taskID:number) => {
 //     setTasks (tasks1.filter((el) => el.id !== taskID))
 //  }
