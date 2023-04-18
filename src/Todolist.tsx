@@ -28,7 +28,7 @@ export function Todolist(props: PropsType) {
         setTitle(e.currentTarget.value)
     }
 
-//
+// Фильтрация при наборе
 const [searchText, setSearchText] = useState("");
 
   const handleSearchTextChange = (event: React.ChangeEvent<HTMLInputElement>) => {
