@@ -18,11 +18,6 @@ type PropsType = {
 export function Todolist(props: PropsType) {
 
     let [title, setTitle] = useState("")
-    // const [value, setValue] = useState('')
-
-    // const filteredCountry = countries.filter(country=>{
-    //     return country.name.toLowerCase().includes(value.toLowerCase())
-    // })
 
     const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
         setTitle(e.currentTarget.value)
