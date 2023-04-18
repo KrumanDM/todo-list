@@ -51,7 +51,7 @@ function App() {
                       changeFilter={changeFilter}
                       changeTaskStatus={changeTaskStatus}
                       filter={filter}
-                       />
+                    />
            <Input/>
         </div>
     );
