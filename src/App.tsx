@@ -1,11 +1,14 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import './App.css';
 import {Todolist} from './Todolist';
 import { v1 } from 'uuid';
+import Input from './Input';
 
-export type FilterValuesType = "all" | "active" | "completed";
+
+export type FilterValuesType = "Все" | "Крытые" | "На улице";
 
 function App() {
+   
 
     let [tasks, setTasks] = useState([
         { id: v1(), title: "HTML&CSS", isDone: true },
@@ -15,25 +18,15 @@ function App() {
         { id: v1(), title: "GraphQL", isDone: false },
     ]);
 
-    function removeTask(id: string) {
-        let filteredTasks = tasks.filter(t => t.id !== id);
-        setTasks(filteredTasks);
-    }
 
-    function addTask(title: string) {
-        let task = { id: v1(), title: title, isDone: false };
-        let newTasks = [task, ...tasks];
-        setTasks(newTasks);
-    }
-
-    let [filter, setFilter] = useState<FilterValuesType>("all");
+    let [filter, setFilter] = useState<FilterValuesType>("Все");
 
     let tasksForTodolist = tasks;
 
-    if (filter === "active") {
+    if (filter === "Крытые") {
         tasksForTodolist = tasks.filter(t => t.isDone === false);
     }
-    if (filter === "completed") {
+    if (filter === "На улице") {
         tasksForTodolist = tasks.filter(t => t.isDone === true);
     }
 
@@ -53,13 +46,13 @@ function App() {
 
     return (
         <div className="App">
-            <Todolist title="What to learn"
+            <Todolist title="Скейт споты Минска"
                       tasks={tasksForTodolist}
-                      removeTask={removeTask}
                       changeFilter={changeFilter}
-                      addTask={addTask} 
                       changeTaskStatus={changeTaskStatus}
-                      filter={filter} />
+                      filter={filter}
+                       />
+           <Input/>
         </div>
     );
 }
