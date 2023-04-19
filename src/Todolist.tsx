@@ -42,7 +42,7 @@ const [searchText, setSearchText] = useState("");
     return <div>
         <h3>{props.title}</h3>
         <div>
-            <input value={searchText} onChange={handleSearchTextChange}
+            <input className='input' value={searchText} onChange={handleSearchTextChange}
             />
         </div>
         <ul>
