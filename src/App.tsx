@@ -11,11 +11,11 @@ function App() {
    
 
     let [tasks, setTasks] = useState([
-        { id: v1(), title: "HTML&CSS", isDone: true },
-        { id: v1(), title: "JS", isDone: true },
-        { id: v1(), title: "ReactJS", isDone: false },
-        { id: v1(), title: "Rest API", isDone: false },
-        { id: v1(), title: "GraphQL", isDone: false },
+        { id: v1(), title: "Скейтпарк Магистр", isDone: true },
+        { id: v1(), title: "Переход на Ленина", isDone: true },
+        { id: v1(), title: "Бел Макба", isDone: false },
+        { id: v1(), title: "Стелла", isDone: false },
+        { id: v1(), title: "БелЭкспо", isDone: false },
     ]);
 
 
@@ -52,7 +52,7 @@ function App() {
                       changeTaskStatus={changeTaskStatus}
                       filter={filter}
                     />
-           <Input/>
+           
         </div>
     );
 }

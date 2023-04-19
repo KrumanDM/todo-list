@@ -50,7 +50,8 @@ const [searchText, setSearchText] = useState("");
                 filteredItems.map(t => {
                     
                     return <li key={t.id}>
-                    {t.title} - {t.isDone ? "Done" : "Not done"}
+                    {t.title} 
+                    {/* - {t.isDone ? "Done" : "Not done"} */}
                   </li>
                 })
             }
