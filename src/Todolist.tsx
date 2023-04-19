@@ -56,12 +56,12 @@ const [searchText, setSearchText] = useState("");
                 })
             }
         </ul>
-        <div>
-            <button className={props.filter === 'Все' ? 'active-filter' : ''} 
+        <div >
+            <button className={props.filter === 'Все' ? 'active-filter' : 'button'} 
                     onClick={ onAllClickHandler }>Все</button>
-            <button className={props.filter === 'Крытые' ? 'active-filter' : ''} 
+            <button className={props.filter === 'Крытые' ? 'active-filter' : 'button'} 
                     onClick={ onActiveClickHandler }>Крытые</button>
-            <button className={props.filter === 'На улице' ? 'active-filter' : ''} 
+            <button className={props.filter === 'На улице' ? 'active-filter' : 'button'} 
                     onClick={ onCompletedClickHandler }>На улице</button>
         </div>
     </div>
