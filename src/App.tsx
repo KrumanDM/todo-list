@@ -43,7 +43,7 @@ function App() {
 
 
 
-    
+
     return (
         <div className="App">
             <Todolist title="Скейт споты Минска"
@@ -56,5 +56,6 @@ function App() {
         </div>
     );
 }
+
 
 export default App;
