@@ -43,7 +43,6 @@ function App() {
 
 
 
-
     return (
         <div className="App">
             <Todolist title="Скейт споты Минска"
