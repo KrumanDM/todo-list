@@ -9,7 +9,6 @@ export type FilterValuesType = "Все" | "Крытые" | "На улице";
 
 function App() {
    
-
     let [tasks, setTasks] = useState([
         { id: v1(), title: "Скейтпарк Магистр", isDone: true },
         { id: v1(), title: "Переход на Ленина", isDone: true },
