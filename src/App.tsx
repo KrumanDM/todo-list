@@ -4,7 +4,6 @@ import {Todolist} from './Todolist';
 import { v1 } from 'uuid';
 import Input from './Input';
 
-
 export type FilterValuesType = "Все" | "Крытые" | "На улице";
 
 function App() {
