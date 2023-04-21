@@ -17,7 +17,6 @@ function App() {
         { id: v1(), title: "БелЭкспо", isDone: false },
     ]);
 
-
     let [filter, setFilter] = useState<FilterValuesType>("Все");
 
     let tasksForTodolist = tasks;
