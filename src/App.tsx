@@ -7,6 +7,7 @@ import Input from './Input';
 
 export type FilterValuesType = "Все" | "Крытые" | "На улице";
 
+
 function App() {
    
     let [tasks, setTasks] = useState([
