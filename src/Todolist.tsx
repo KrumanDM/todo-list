@@ -1,6 +1,7 @@
 import React, {ChangeEvent, useState} from 'react';
 import {FilterValuesType} from './App';
 
+
 type TaskType = {
     id: string
     title: string
