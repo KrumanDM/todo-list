@@ -6,6 +6,7 @@ import { v1 } from 'uuid';
 
 export type FilterValuesType = "Все" | "Крытые" | "На улице";
 
+
 function App() {
    
     let [tasks, setTasks] = useState([
