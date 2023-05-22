@@ -4,6 +4,9 @@ import {Todolist} from './TodoList/Todolist';
 import { v1 } from 'uuid';
 import TasksForTodoList from './TodoList/TasksForTodoList';
 
+import { HashRouter } from 'react-router-dom';
+import { Layout } from './Layout/Layout';
+import Pages from './Pages';
 
 // export type FilterValuesType = "Все" | "Крытые" | "На улице";
 
@@ -49,8 +52,13 @@ function App() {
                       changeTaskStatus={changeTaskStatus}
                       filter={filter}
                     /> */}
-                    <TasksForTodoList/>
-    
+                    {/* <TasksForTodoList/> */}
+                    <HashRouter>
+            {/*в gh-pages лучше работает HashRouter, с BrowserRouter скорее всего не пройдёт тест*/}
+            <Layout>
+                <Pages />
+            </Layout>
+        </HashRouter>
         </div>
     );
 }
