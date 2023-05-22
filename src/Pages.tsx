@@ -4,7 +4,7 @@ import Error404 from './pages/Error404';
 import PreJunior from './pages/PreJunior';
 import Junior from './pages/Junior';
 import JuniorPlus from './pages/JuniorPlus';
-import Header from './Header/Header'
+import { Header } from './Header/Header';
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
