@@ -23,7 +23,7 @@
   padding: 80px;
   font-size: 30px;
 /* // выше работаем с размещением текста и шрифтом  */
-  width: 317px;
+  width: 200px;
   height: 720px;
   left: 0px;
   top: 0px;
@@ -54,7 +54,7 @@
 }
 .close {
     position: absolute;
-    left: 280px;
+    left: 305px;
     top: 10px;
 
     width: 40px;

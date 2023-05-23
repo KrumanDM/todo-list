@@ -1,6 +1,5 @@
 
 
-
 .burgerMenuIcon {
     width: 50px;
 
@@ -10,19 +9,27 @@
 
 
 .header {
-    padding: 20px; 
+    /* padding: 20px; 
     display: inline-block;
-    width: 105%;
+    width: 105%; */
     box-sizing: border-box;
     box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
     padding: 10px;
     /* выше 2 параметра на затемнение снизу */
     height: 70px;
+    
 }
 
 .header h1 {
-    float: right;
+    /* float: right;
     width: 10em;
     max-width: 100%;
-    min-height: 2em;
+    min-height: 2em; */
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 auto;  /*выравнивание горизонтали по центру*/
+    margin-top: 15px;
 }
