@@ -45,7 +45,7 @@ function App() {
     // }
 
     return (
-        <div className="App">
+        <div >
             {/* <Todolist title="Скейт споты Минска"
                       tasks={tasksForTodolist}
                       changeFilter={changeFilter}
