@@ -3,7 +3,7 @@ import React from 'react'
 function JuniorPlus() {
     return (
         <div id={'hw5-page-junior-plus'}>
-            <input></input>
+            <input className='input'></input>
             
         
         </div>
