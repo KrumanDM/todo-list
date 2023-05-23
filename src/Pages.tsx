@@ -5,11 +5,14 @@ import PreJunior from './pages/PreJunior';
 import Junior from './pages/Junior';
 import JuniorPlus from './pages/JuniorPlus';
 import { Header } from './Header/Header';
+import TasksForTodoList from './TodoList/TasksForTodoList';
+
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
     JUNIOR_PLUS: '/junior-plus',
+    SKATE_MAP: '/skate-map'
 }
 
 function Pages() {
@@ -21,11 +24,11 @@ function Pages() {
                 {/*роутинг будут писать студенты*/}
                 {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу /pre-junior*/}
                 
-                <Route path="/" element={<Navigate to={PATH.PRE_JUNIOR}/>} />
+                <Route path="/" element={<Navigate to={PATH.SKATE_MAP}/>} />
                 
 
                 {/*роуты для /pre-junior, /junior, /junior-plus*/}
-                <Route path="/pre-junior" element={<PreJunior />} />
+                <Route path="/skate-map" element={<TasksForTodoList />} />
                 <Route path="/junior" element={<Junior />} />
                 <Route path="/junior-plus" element={<JuniorPlus />} />
 

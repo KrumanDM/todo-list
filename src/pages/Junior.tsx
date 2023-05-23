@@ -11,6 +11,7 @@ function Junior() {
             {/*<HW7 />*/}
             {/*<HW8 />*/}
             {/*<HW9 />*/}
+            <img src={"https://media.cnn.com/api/v1/images/stellar/prod/230426141158-sand-cat-9.jpg?c=original&q=w_1280,c_fill"}/>
         </div>
     )
 }

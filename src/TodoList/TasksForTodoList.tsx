@@ -41,7 +41,7 @@ function TasksForTodoList() {
     }
 
     return (
-        <div className="App">
+        <div id={'hw5-page-junior'}>
             <Todolist title="Скейт споты Минска"
                       tasks={tasksForTodolist}
                       changeFilter={changeFilter}
