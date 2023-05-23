@@ -34,6 +34,8 @@
 
   line-height: 80px;
 
+  
+
 
   
   
@@ -41,7 +43,7 @@
 }
 
 .nav a {
-    
+    text-decoration-line: none;
 }
 
 .nav a:hover {
@@ -51,6 +53,7 @@
 
 .nav a.active {
     /* transform: translateX(0%); */
+    text-decoration-line: underline;
 }
 .close {
     position: absolute;
@@ -75,7 +78,7 @@
     line-height: 27px;
     /* identical to box height */
 
-    text-decoration-line: underline;
+    
 
     color: #0059B2;
 
