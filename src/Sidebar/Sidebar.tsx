@@ -42,7 +42,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-junior-link'}
                         to={PATH.JUNIOR}
                         
-                        // className={...} // делает студент
+                        
                         className= {({isActive}) => (isActive ? s.active : '')}
 
                         onClick={handleClose} /*Для закрытия после нажатия*/

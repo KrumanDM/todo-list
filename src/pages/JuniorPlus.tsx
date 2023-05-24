@@ -6,8 +6,6 @@ function JuniorPlus() {
             <h1>Напиши отзыв</h1>
             <input className='input'></input>
             
-            
-        
         </div>
     )
 }
