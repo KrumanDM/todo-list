@@ -4,8 +4,6 @@ function Junior() {
     return (
         <div id={'hw5-page-junior'}>
             
-            
-            
         </div>
     )
 }

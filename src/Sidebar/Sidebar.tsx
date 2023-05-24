@@ -32,7 +32,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-pre-junior-link'}
                         to={PATH.SKATE_MAP}
                       
-                        className= {({isActive}) => (isActive ? s.active : '')}
+                        className= {({isActive}) => (isActive ? s.active : '')}/*Стиль нажатой кнопки*/
 
                         onClick={handleClose} /*Для закрытия после нажатия*/
                     >
@@ -41,10 +41,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                     <NavLink
                         id={'hw5-junior-link'}
                         to={PATH.JUNIOR}
-                        
-                        
-                        className= {({isActive}) => (isActive ? s.active : '')}
-
+                        className= {({isActive}) => (isActive ? s.active : '')}/*Стиль нажатой кнопки*/
                         onClick={handleClose} /*Для закрытия после нажатия*/
                         
                     >
