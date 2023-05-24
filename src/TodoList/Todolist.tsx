@@ -53,7 +53,6 @@ const [searchText, setSearchText] = useState("");
                     
                     return <li key={t.id}>
                     {t.title} 
-                    
                     {/* - {t.isDone ? "Done" : "Not done"} */}
                   </li>
                 })
