@@ -7,7 +7,6 @@ import JuniorPlus from './pages/JuniorPlus';
 import { Header } from './Header/Header';
 import TasksForTodoList from './TodoList/TasksForTodoList';
 
-
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
