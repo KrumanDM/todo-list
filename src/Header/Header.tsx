@@ -31,8 +31,9 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
                     className={s.burgerMenuIcon}
                     onClick={handleOpen}
                     alt={'open menu'}/>
-                    
+
                     {/* <h1>{"Skate Map"}</h1> */}
+                    
             </div>
         </>
     )
