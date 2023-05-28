@@ -48,7 +48,6 @@ function TasksForTodoList() {
                       changeTaskStatus={changeTaskStatus}
                       filter={filter}
                     />
-    
         </div>
     );
 }

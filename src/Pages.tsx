@@ -22,7 +22,7 @@ function Pages() {
                 {/*роутинг будут писать студенты*/}
                 {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу /pre-junior*/}
                 <Route path="/" element={<Navigate to={PATH.SKATE_MAP}/>} />       
-
+                
                 {/*роуты для /pre-junior, /junior, /junior-plus*/}
                 <Route path="/skate-map" element={<TasksForTodoList />} />
                 <Route path="/junior" element={<Junior />} />
