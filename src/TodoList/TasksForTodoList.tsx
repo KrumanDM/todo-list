@@ -7,7 +7,6 @@ import { v1 } from 'uuid';
 export type FilterValuesType = "Все" | "Крытые" | "На улице";
 
 
-
 function TasksForTodoList() {
    
     let [tasks, setTasks] = useState([
